@@ -74,7 +74,7 @@ double pcs2ugm3 (double concentration_pcs)
     return concentration_pcs * K * mass25;
 }
 
-// https://www3.epa.gov/airquality/particlepollution/2012/decfsstandards.pdf
+// https://www3.epa.gov/airnow/aqi-technical-assistance-document-may2016.pdf
 static struct aqi {
     float clow;
     float chigh;
@@ -86,7 +86,7 @@ static struct aqi {
   {35.5,   55.4, 101, 150},
   {55.5,  150.4, 151, 200},
   {150.5, 250.4, 201, 300},
-  {250.5, 350.4, 301, 350},
+  {250.5, 350.4, 301, 400},
   {350.5, 500.4, 401, 500},
 };
 
